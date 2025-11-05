@@ -3,8 +3,7 @@ const auth = {
   email: "dinushaamali17@gmail.com",
   password: "pami234#*id",
   userAgent:
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.246",
-};
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.246"};
 
 const upload = (data, name) => {
   return new Promise((resolve, reject) => {
@@ -41,4 +40,5 @@ const upload = (data, name) => {
 };
 
 module.exports = { upload };
+
 
